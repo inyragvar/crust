@@ -1,0 +1,14 @@
+{
+    "folders": [
+        {
+            "path": "crust-build"
+        },
+        {
+            "path": "crust-main"
+        },
+        {
+            "path": "./"
+        }
+    ],
+    "settings": {}
+}
