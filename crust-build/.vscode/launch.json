@@ -24,6 +24,19 @@
             "environment": [],
             "console": "newExternalWindow",
             "preLaunchTask": "build-dev-application"
+        },
+        {
+            "name": "Linux - Desktop - Launch",
+            "type": "lldb", // or "gdb" if you prefer
+            "request": "launch",
+            "cwd": "${workspaceRoot}/../linux/out/debug",
+            "program": "${workspaceRoot}/../linux/out/debug/crust",
+            "args": [],
+            "sourceLanguages": [
+                "rust"
+            ],
+            "terminal": "external",
+            "preLaunchTask": "build-dev-application"
         }
     ]
 }

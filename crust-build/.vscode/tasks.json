@@ -35,6 +35,20 @@
                     "--variant",
                     "debug"
                 ]
+            },
+            "linux": {
+                "command": "cargo",
+                "options": {
+                    "cwd": "${workspaceRoot}"
+                },
+                "args": [
+                    "run",
+                    "--",
+                    "--target",
+                    "linux",
+                    "--variant",
+                    "debug"
+                ]
             }
         }
     ]

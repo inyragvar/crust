@@ -1,6 +1,8 @@
 pub mod core;
-use crate::core::logs;
+pub mod log_tag;
+
+use crate::{core::logs};
 
 fn main() {
-    logs::out("tag", "Hello, world!");
+    logs::out(log_tag!(), "Hello, world!");
 }
