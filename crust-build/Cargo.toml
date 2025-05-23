@@ -1,6 +1,8 @@
 [package]
 name = "crust-build"
-version = "0.1.0"
+version = "1.0.0"
+authors = ["inyragvar"]
 edition = "2024"
 
 [dependencies]
+clap = "2.33.3"

@@ -1,3 +1,6 @@
+pub mod core;
+use crate::core::logs;
+
 fn main() {
-    println!("Hello, world!");
+    logs::out("tag", "Hello, world!");
 }
